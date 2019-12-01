@@ -1,0 +1,1 @@
+start cmd /k browser-sync start --proxy "Victim.kz" --files "php/*.php,css/*.css,js/*.js,html/*.html,*.*"
