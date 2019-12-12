@@ -31,10 +31,10 @@
 
       <div class="row form-group">
         <div class="col-md-12">
-          <textarea name="message" id="message" name="message" cols="30" rows="10" class="form-control" placeholder="Введите сообщение"></textarea>
+          <textarea type="text" id="message" name="message" cols="30" rows="10" class="form-control" placeholder="Введите сообщение"></textarea>
         </div>
       </div>
-      <div class="form-group"><?php echo "$error"; ?>
+      <div class="form-group">
         <input type="submit" name="submit" value="Отправить сообщение" class="btn btn-primary">
       </div>
 
